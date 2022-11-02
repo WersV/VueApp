@@ -3,7 +3,6 @@ import {
   createWebHashHistory,
 } from 'vue-router';
 import SearchView from '../views/SearchView.vue';
-import AboutView from '../views/AboutView.vue';
 
 const routes = [
 
@@ -11,11 +10,6 @@ const routes = [
     path: '/',
     name: 'SearchView',
     component: SearchView,
-  },
-  {
-    path: '/about',
-    name: 'AboutView',
-    component: AboutView,
   },
 ];
 

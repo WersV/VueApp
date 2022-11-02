@@ -1,12 +1,18 @@
 <template>
   <div class="app">
-    <div class="nav">
-      <router-link to="/">spacer</router-link>
-      <router-link to="/about">about</router-link>
-      <router-view/>
-    </div>
+    <router-view />
   </div>
 </template>
 
 <style lang="scss">
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
 </style>
