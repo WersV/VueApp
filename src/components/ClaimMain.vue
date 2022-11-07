@@ -20,6 +20,26 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-weight: bold;
+    color: #eee;
+
+    @media (min-width: 768px) {
+      font-size: 30px;
+    }
+
+    .claim {
+      font-weight: bold;
+      font-size: 45px;
+      @media (min-width: 768px) {
+        font-size: 80px;
+      }
+    }
+    .subclaim {
+      font-size: 17px;
+      @media (min-width: 768px) {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 130%;
+      }
+  }
   }
 </style>
